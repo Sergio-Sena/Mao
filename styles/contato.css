@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fdbb2d;
+    justify-content: space-around;
+}
+
+.header img {
+    width: 50px;
+    bottom: auto;
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.main img {
+    padding: 10px;
+    width: 400px;
+}
+
+.div membros {
+    display: flex;
+    align-items: center;
+}

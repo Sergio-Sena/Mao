@@ -25,6 +25,10 @@ body {
   padding: 20px;
 }
 
+.menu li a{
+  
+}
+
 .menu li:hover {
   cursor: pointer;
   font-weight: bold;
