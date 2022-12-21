@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  background-color: grey;
+  justify-content: space-around;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  width: 72px;
+  font-size: 24px;
+  list-style: none;
+}
+
+.menu li:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
