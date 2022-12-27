@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  font-family: Poppins sans-serif;
+}
+
 body {
   margin: 0;
 }
@@ -11,7 +21,7 @@ body {
 }
 
 .header img {
-  width: 50px;
+  width: 100px;
 }
 
 .menu {
@@ -25,19 +35,102 @@ body {
   padding: 20px;
 }
 
-.menu li a{
-  
-}
+.menu li a {}
 
 .menu li:hover {
   cursor: pointer;
   font-weight: bold;
 }
+
 .main {
   display: flex;
   align-items: center;
 }
+
 .main img {
   padding: 10px;
   width: 400px;
+}
+
+
+.conteiner {
+  position: relative;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  background: gray;
+}
+
+.conteiner .card {
+  position: relative;
+  max-width: 215px;
+  height: 330px;
+  border-radius: 4px;
+  background: #fff;
+  margin: 30px 10px;
+  padding: 20px 45px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20 px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.conteiner .card:hover {
+  width: 420px;
+
+}
+
+.conteiner .card .imgbx {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+  z-index: 1px;
+  box-shadow: 0 5px 20 px rgba(0, 0, 0, 0.2);
+
+
+
+}
+
+.conteiner .card .imgbx img {
+  max-width: 100%;
+  border-radius: 6px;
+  filter: grayscale();
+
+}
+
+.conteiner .card:hover .imgbx img {
+  filter: none;
+
+}
+
+.conteiner .card .content {
+  position: relative;
+  margin-top: -100px;
+  padding: 20px 15px;
+  text-align: center;
+  color: #111;
+  visibility: visible;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+
+}
+
+.conteiner .card .content .nome {
+  color: aqua;
+}
+
+.conteiner .card:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition: delay 0.3s;
+
+
+
 }
