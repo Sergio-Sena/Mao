@@ -146,3 +146,12 @@ body {
 
 
 }
+.contato {
+  background: #fff;
+}
+.contato img {
+  max-width: 50%;
+}
+.contato .email {
+font-size: 205px;
+}
