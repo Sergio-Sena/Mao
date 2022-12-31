@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: #f5f5f5;
 
 }
 
@@ -17,10 +18,25 @@ body {
 
 }
 
-.megafone .cidadania {
+.cidadania {
     display: flex;
 
 }
 
 
-.megafone .bottons {}
+.bottons {
+    display: flex;
+    align-items: center;
+
+}
+
+.hiperlink {
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hiperlink img {
+    width: 10%;
+}
