@@ -15,15 +15,91 @@ body {
 }
 
 .header {
+  position: fixed;
   display: flex;
-  align-items: center;
   padding: 10px;
-  background-color: #fdbb2d;
+  background: #f5f5f5;
   justify-content: space-around;
 }
 
 .header img {
   width: 100px;
+}
+
+.header .itens {
+  display: block;
+}
+
+.header .cidadania {
+  display: flexbox;
+  left: 0;
+  position: relative;
+  width: 218px;
+  height: 61px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+  color: #C64A4D;
+}
+
+.header .movel {
+  width: 218px;
+  height: 61px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+  color: #DD8B8D;
+
+}
+
+.main .cidadania {
+  color: #C64A4D;
+}
+
+.main .p {
+  margin-top: 15%;
+  height: 135px;
+  width: 434px;
+  left: -415px;
+  top: 546px;
+  border-radius: nullpx;
+  width: 434px;
+  height: 135px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: #000000;
+}
+
+
+.main .frase .p .cidadania {
+  color: #C64A4D;
+}
+
+.main .frase .p.frases {
+  color: #000000;
+}
+
+.main .frase {
+
+  margin-top: 15%;
+  position: absolute;
+  left: 0;
+
+
+}
+
+.bottonsHome {
+  display: block;
+  margin-top: 60%;
 }
 
 .menu {
@@ -54,6 +130,11 @@ body {
   width: 400px;
 }
 
+.main img {
+  margin-top: 20%;
+  padding: 100px;
+  width: 200px
+}
 
 .conteiner {
   position: relative;
