@@ -163,13 +163,6 @@ body {
   width: 58%;
   max-width: 100%;
 }
-
-.sobre {
-  display: block;
-  white-space: nowrap;
-  margin-top: -15%;
-}
-
 .conteiner {
   position: relative;
   width: 1200px;
@@ -339,4 +332,10 @@ body {
   line-height: 129px;
   color: #dd8b8d;
   right: 131px;
+}
+
+@media screen and (max-width: 500px) {
+  .contato {
+    width: 100%;
+  }
 }
