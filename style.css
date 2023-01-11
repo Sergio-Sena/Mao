@@ -1,7 +1,9 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: #f5f5f5;
+    position: absolute;
+    width: 900px;
+    height: 547px;
+    background: #D9D9D9;
+
 
 }
 
