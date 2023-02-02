@@ -52,3 +52,18 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+const sendWpp = () => {
+    let name = document.getElementById('name').value;
+    let email = document.getElementById('email').value;
+    let message = document.getElementById('message').value;
+    let phone = document.getElementById('phone').value;
+    console.log('teste')
+    let urlSend = "https://api.whatsapp.com/send?phone=+5511984969596&text="
+        + "*Formulário de Contato*" + "%0a"
+        + "%0a"
+        + "*Nome*: " + name + "%0a"
+        + "*Telefone*: " + phone + "%0a"
+        + "*E-mail*: " + email + "%0a"
+        + "*Mensagem*: " + message;
+    window.open(urlSend, '_blank').focus()
+}
